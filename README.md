@@ -17,7 +17,8 @@ Loading the notebooks into Google Colaboratory is probably the best way to run t
 
 ### Output
 The fundamental output of this project is the fine tuned model weights, which have been exported from notebook `2 Fine_tuning.ipynb`.
-This model may be imported into new programs or projects and run 
+This model may be imported into new programs or projects.
+As the model is about 1GB, it is being hosted on [Google Drive](https://drive.google.com/drive/folders/1-dF7t6kH-yHUwVBIahOwREUFI6yO46-t?usp=share_link).
 
 Notebook `3 Pres_tuned.ipynb` provides an environment that can load the fine tuned model without conducting any training.
 The final cells of this notebook access images from outside of the training set and use the model to generate captions for them.
